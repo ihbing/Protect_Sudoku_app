@@ -123,7 +123,7 @@ public class MyApplication extends Application{
 
 9、在Unshell工程（脱壳工程）下导出未签名的apk，然后使用winrar打开该apk文件，替换其中的dex文件为上一部生成的dex文件。
 
-10、对重新打包后的apk文件进行签名，签名的密码为123456
+10、对重新打包后的apk文件进行签名，签名的密码为ＸＸＸＸＸＸ
 jarsigner -verbose -keystore teligen.keystore -signedjar Unshell_signed.apk Unshell.apk teligen.keystore
 
 11、生成apk文件，就可以安装使用了
